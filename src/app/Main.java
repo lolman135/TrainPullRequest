@@ -12,6 +12,8 @@ public class Main {
         b = 13;
         res = add(a, b);
         System.out.println("Result:" + res);
+        res = multiply(a, b);
+        System.out.println("Result:" + res);
     }
     private static int add(int a, int b){
         return a+b;
